@@ -1,0 +1,124 @@
+// --------------------------------------------------
+// COMMONS STYLE
+// --------------------------------------------------
+//
+
+// OVERRIDE: OVERRIDE STYLE
+// -------------------------------------
+
+// COMMON: COMMON STYLE
+// -------------------------------------
+// Genarate Sprite Images
+.icon {
+	display: inline-block;
+	vertical-align: middle;
+}
+@font-face {
+  font-family: 'biticon';
+  src:  url('../fonts/biticon.eot?ewd4wv');
+  src:  url('../fonts/biticon.eot?ewd4wv#iefix') format('embedded-opentype'),
+    url('../fonts/biticon.ttf?ewd4wv') format('truetype'),
+    url('../fonts/biticon.woff?ewd4wv') format('woff'),
+    url('../fonts/biticon.svg?ewd4wv#biticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'biticon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-verification:before {
+  content: "\e918";
+}
+.icon-delivery:before {
+  content: "\e919";
+}
+.icon-wallet-filled-money-tool:before {
+  content: "\e917";
+}
+.icon-add-user:before {
+  content: "\e900";
+}
+.icon-bitcoin-logo:before {
+  content: "\e901";
+}
+.icon-create-group-button:before {
+  content: "\e902";
+}
+.icon-dollar-symbol:before {
+  content: "\e903";
+}
+.icon-family-tree:before {
+  content: "\e904";
+}
+.icon-give-money:before {
+  content: "\e905";
+}
+.icon-hierarchy-levels:before {
+  content: "\e906";
+}
+.icon-home:before {
+  content: "\e907";
+}
+.icon-link:before {
+  content: "\e908";
+}
+.icon-key-silhouette:before {
+  content: "\e909";
+}
+.icon-line-chart:before {
+  content: "\e90a";
+}
+.icon-logout:before {
+  content: "\e90b";
+}
+.icon-money-bag-with-dollar-symbol:before {
+  content: "\e90c";
+}
+.icon-old-typical-phone:before {
+  content: "\e90d";
+}
+.icon-package:before {
+  content: "\e90e";
+}
+.icon-plus-button-(1):before {
+  content: "\e90f";
+}
+.icon-plus-button:before {
+  content: "\e910";
+}
+.icon-sitemap:before {
+  content: "\e911";
+}
+.icon-sort-down:before {
+  content: "\e912";
+}
+.icon-two-hands-graving-dollar-bills:before {
+  content: "\e913";
+}
+.icon-wallet:before {
+  content: "\e914";
+}
+.icon-add-contact:before {
+  content: "\e915";
+}
+.icon-add-song:before {
+  content: "\e916";
+}
+
+
+.sprites(@spritesheet-sprites);
+
+/* HOOK COMMONS STYLE */
+.hook-common-style;

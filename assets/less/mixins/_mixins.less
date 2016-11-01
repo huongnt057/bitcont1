@@ -1,0 +1,82 @@
+//
+// MIXINS
+// --------------------------------------------------
+@import "_font-size.less";
+@import "_width.less";
+@import "_margin-padding.less";
+@import "_layout.less";
+
+// MIXIN: Check Value jave Important
+//--------------------------------------------------------------------------------
+// Parameter 		Type 		Default 		Description
+//--------------------------------------------------------------------------------
+// @important 		boolean		false			Define Values Lazy Loading
+
+.checkImportant(@important) when (@important = false){
+	@important: ~"";
+	@importantClass: ~"";
+}
+.checkImportant(@important) when (@important = true){
+	@important: '!important';
+	@importantClass: ~"-ipt";
+}
+
+// MIXIN: Check Value jave Important
+//--------------------------------------------------------------------------------
+// Parameter 		Type 		Default 		Description
+//--------------------------------------------------------------------------------
+// @important 		boolean		false			Define Values Lazy Loading
+
+.checkImportant(@important) when (@important = false){
+	@important: ~"";
+	@importantClass: ~"";
+}
+.checkImportant(@important) when (@important = true){
+	@important: '!important';
+	@importantClass: ~"-ipt";
+}
+
+// MIXIN : Transform CSS3
+// --------------------------------------------------
+.transform(@transform) {
+	-webkit-transform: @transform;
+	-moz-transform: @transform;
+	-ms-transform: @transform; // IE9 only
+	transform: @transform;
+}
+
+// MIXIN: Set Link Color
+// --------------------------------------------------
+.link-color(@color: @link-color, @colorHover: @link-hover-color){
+	color: @color;
+	&:hover {
+		color: @colorHover;
+	}
+}
+
+// MIXIN: Set Link Color for text
+.link-text-color(@color: @text-color, @colorHover: @link-color){
+	color: @color;
+	&:hover {
+		color: @colorHover;
+	}
+}
+
+//
+// MIXIN: MIXINS for this Project
+// --------------------------------------------------//
+// Write new mixin for project here...
+.reset-list(){
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+// Init Hook Mixins
+.hook-common-style(){};
+.hook-sm-min(){};
+.hook-md-min(){};
+.hook-lg-min(){};
+.hook-md-max(){};
+.hook-sm-max(){};
+.hook-xs-max(){};
