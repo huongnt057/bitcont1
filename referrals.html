@@ -24,12 +24,14 @@
 	 <link rel="stylesheet" href="assets/css/Admin.min.css">
 	  <!-- AdminLTE Skins. Choose a skin from the css/skins
 	       folder instead of downloading all of them to reduce the load. -->
-  <script src="assets/js/jquery.min.js"></script>
+<!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+
   <script type="text/javascript">
     $(function () {
        $('.sidebar-menu li').on('click', function(){
             console.log('vao day chua');
-           $(this).toggleClass("active");
+           $(this).addClass("active");
          });
     });
   </script>
@@ -206,8 +208,8 @@
     <section class="sidebar">
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
-        <li class="active treeview">
-          <a href="index.html" class="active">
+        <li class="treeview">
+          <a href="index.html">
             <i class="icon icon-home"></i> <span>Home</span>
           </a>
         </li>
@@ -327,7 +329,6 @@
     reserved.
   </footer>
   	<!-- Javascript -->
-	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/custom.js"></script>
 	<!-- AdminLTE App -->
