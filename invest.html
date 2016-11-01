@@ -251,132 +251,189 @@
     <!-- /.sidebar -->
   <span class="shadows"></span>  
   </aside>
-  <div class="content-wrapper">
+ <div class="content-wrapper">
   <ol class="breadcrumb">
  	 <li class="breadcrumb-item "><a href="index.html">Home</a></li>
- 	 <li class="breadcrumb-item active">Profile</li>
+ 	 <li class="breadcrumb-item active">Invest</li>
   </ol>
   	<div class="row">
-  		<div class="col-xs-12 col-md-6">
-  			<div class="box box-info"">
-  				<div class="panel-header">
-  					<i class="fa fa-user"></i>
-  					<span>Profile</span>
-	  				<figure>
-			        <a href="#"><img src="../assets/images/avartar.jpg" alt="Adminise"></a>
-			      </figure>
-  				</div>
-  				<div class="panel-content">
-  					<div class="item-info top-info">
-  						<p>Username: s01</p>
-  						<p>Name: Nguyen Huong Thu</p>
-  						<p>User: s01</p>
-  						<p>User: s01</p>
-  						<p>User: s01</p>
-  						<p>User: s01</p>
-
-  					</div>
-  					<div class="item-info bottom-info">
-  						<p>Id: s01</p>
-  						<p>Name: Nguyen Huong Thu</p>
-  						<p>User: s01</p>
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-  		<div class="col-xs-12 col-md-6">
-  			<div class="box box-change-pass">
-  				<h3> Change PassWord</h3>
-  				<form class="form-horizontal">
-				  <div class="form-group">
-				    <label for="inputpassword1" class="col-sm-3 control-label">Current Pass</label>
-				    <div class="col-sm-9">
-				      <input type="password" class="form-control" id="inputpassword1" placeholder="Current Pass" required="Please enter">
-				    </div>
-				  </div>
-				  <div class="form-group">
-				    <label for="inputPassword3" class="col-sm-3 control-label">New Password</label>
-				    <div class="col-sm-9">
-				      <input type="password" class="form-control" id="inputPassword3" placeholder="Password" required="Please enter">
-				    </div>
-				  </div>
-				    <div class="form-group">
-				    <label for="inputPassword3" class="col-sm-3 control-label">New Password</label>
-				    <div class="col-sm-9">
-				      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-				    </div>
-				  </div>
-				  <div class="form-group">
-				    <div class="col-sm-offset-3 col-sm-9">
-				      <button type="submit" class="btn btn-secondary btn-singin">Sign in</button>
-				    </div>
-				  </div>
-				</form>
-  			</div>
-  			<!-- end box-change-pass -->
-  			<div class="box box-wallet-adress">
-  				<h3> Change Wallet Adress</h3>
-  				<form class="form-horizontal">
-					<div class="form-group">
-					    <label for="inputwallet" class="col-sm-3 control-label">Current Wallet Adress</label>
-					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="inputwallet" placeholder="Current Wallet Adress" required="Please enter">
-					    </div>
-					</div>
-					  <div class="form-group">
-					    <label for="inputwallet1" class="col-sm-3 control-label">New Wallet Adress</label>
-					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="inputwallet1" placeholder="New Wallet Adress" required="Please enter">
-					    </div>
-					</div>
-					<div class="form-group">
-					    <div class="col-sm-offset-3 col-sm-9">
-					      <button type="submit" class="btn btn-secondary btn-singin">Sign in</button>
-					    </div>
-					</div>
-				</form>
-  			</div>
-  			<!-- end box-wallet-adress -->
-  			<div class="box box-edit-profile clearfix">
-  				<h3> Edit profile</h3>
-  				<form class="form-horizontal">
-					<div class="form-group">
-					    <label for="inputfullname" class="col-sm-3 control-label">Full Name</label>
-					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="inputfullname" placeholder="Nguyen Huong Thu">
-					    </div>
-					</div>
-					<div class="form-group">
-					    <label for="inputadress" class="col-sm-3 control-label">Adress</label>
-					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="inputadress" placeholder="Cau Giay HN" required="Please enter">
-					    </div>
-					</div>
-					<div class="form-group">
-					    <label for="inputcountry" class="col-sm-3 control-label">Country</label>
-					    <div class="col-sm-9">
-					    	<select class="form-control" id="inputcountry">
-					    		<option value="0">HN</option>
-					    		<option value="2">HCM</option>
-					    	</select>
-					    </div>
-					</div>
-					<div class="form-group">
-					    <label for="inputphone" class="col-sm-3 control-label">Country</label>
-					    <div class="col-sm-9">
-					    	 <input type="text" class="form-control" id="inputphone" placeholder="0934397493" required="Please enter">
-					    </div>
-					</div>
-					<div class="col-sm-offset-3 col-sm-9">
-					      <button type="submit" class="btn btn-secondary btn-singin">Update Profile</button>
-					    </div>
-					</div>
-				</form>
-  			</div>
-  			<!-- end box-edit-profile -->
+  		<div class="col-md-12">
+			<div class="box-invest">
+				<h2 class="title">
+				    <i class="icon icon-icon-delivery"></i>Package Running
+				</h2>
+				<div class="table-responsive">
+				   <table class="table table-bordered">
+				      <thead>
+				         <tr>
+				            <th>No</th>
+				            <th>Date created</th>
+				            <th>Paket</th>
+				            <th>Renvenue</th>
+				            <th>Profit</th>
+				            <th>Status</th>
+				         </tr>
+				      </thead>
+				      <tbody>
+				         <tr>
+				            <th scope="row">1</th>
+				            <td>21/10/2016</td>
+				            <td>1BTC</td>
+				            <td>21BTC</td>
+				            <td>1.1BTC</td>
+				            <td>active</td>
+				         </tr>
+				         <tr>
+				            <th scope="row">2</th>
+				           	<td>21/10/2016</td>
+				            <td>1BTC</td>
+				            <td>21BTC</td>
+				            <td>1.1BTC</td>
+				            <td>active</td>
+				         </tr>
+				         <tr>
+				            <th scope="row">3</th>
+				            <td>21/10/2016</td>
+				            <td>1BTC</td>
+				            <td>21BTC</td>
+				            <td>1.1BTC</td>
+				            <td>active</td>
+				         </tr>
+				      </tbody>
+				   </table>
+				</div>
+			</div> 
+				<section class="content box-list-package">
+						 <h2 class="title">
+							<i class="icon icon-wallet-filled-money-tool"></i>List of Package 
+						</h2>
+						<div class="row">
+								<div class="col-md-4 col-sm-6 col-xs-12">
+									<div class="deposite text-center">
+										   <div class="ribbon-wrapper">
+										      <div class="ribbon-design red" style="background-color:#cecece">Watting</div>
+										   </div>
+										   <span class="deposite_title">PLATINUM</span>
+										  <span class="offer-tag offer-super">60 days</span>
+										   <span class="deposite_time_digit">0.15 BTC</span>
+										   <div class="deposite_info">
+										      <span>60 days: 0.18 BTC + 0.15 BTC</span>
+										      <br>
+										      <span>Daily profit: 0.003 BTC</span><br>
+										      <span>
+										      Fee : 0.01 BTC
+										      </span>
+										      <br>
+										     <div class="viewer">
+										     	<a href="#">
+										     		<span class="btn-review btn-secondary">Review</span>
+										     	</a>
+										     </div>
+										   </div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12">
+									<div class="deposite text-center">
+										   <div class="ribbon-wrapper">
+										      <div class="ribbon-design red" style="background-color:#cecece">Watting</div>
+										   </div>
+										   <span class="deposite_title">PLATINUM</span>
+										  <span class="offer-tag offer-super">60 days</span>
+										   <span class="deposite_time_digit">0.15 BTC</span>
+										   <div class="deposite_info">
+										      <span>60 days: 0.18 BTC + 0.15 BTC</span>
+										      <br>
+										      <span>Daily profit: 0.003 BTC</span><br>
+										      <span>
+										      Fee : 0.01 BTC
+										      </span>
+										      <br>
+										     <div class="viewer">
+										     	<a href="#">
+										     		<span class="btn-review btn-secondary">Review</span>
+										     	</a>
+										     </div>
+										   </div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12">
+									<div class="deposite text-center">
+										   <div class="ribbon-wrapper">
+										      <div class="ribbon-design red" style="background-color:#cecece">Watting</div>
+										   </div>
+										   <span class="deposite_title">PLATINUM</span>
+										  <span class="offer-tag offer-super">60 days</span>
+										   <span class="deposite_time_digit">0.15 BTC</span>
+										   <div class="deposite_info">
+										      <span>60 days: 0.18 BTC + 0.15 BTC</span>
+										      <br>
+										      <span>Daily profit: 0.003 BTC</span><br>
+										      <span>
+										      Fee : 0.01 BTC
+										      </span>
+										      <br>
+										     <div class="viewer">
+										     	<a href="#">
+										     		<span class="btn-review btn-secondary">Review</span>
+										     	</a>
+										     </div>
+										   </div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12">
+									<div class="deposite text-center">
+										   <div class="ribbon-wrapper">
+										      <div class="ribbon-design red" style="background-color:#cecece">Watting</div>
+										   </div>
+										   <span class="deposite_title">PLATINUM</span>
+										  <span class="offer-tag offer-super">60 days</span>
+										   <span class="deposite_time_digit">0.15 BTC</span>
+										   <div class="deposite_info">
+										      <span>60 days: 0.18 BTC + 0.15 BTC</span>
+										      <br>
+										      <span>Daily profit: 0.003 BTC</span><br>
+										      <span>
+										      Fee : 0.01 BTC
+										      </span>
+										      <br>
+										     <div class="viewer">
+										     	<a href="#">
+										     		<span class="btn-review btn-secondary">Review</span>
+										     	</a>
+										     </div>
+										   </div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12">
+									<div class="deposite text-center">
+										   <div class="ribbon-wrapper">
+										      <div class="ribbon-design red" style="background-color:#cecece">Watting</div>
+										   </div>
+										   <span class="deposite_title">PLATINUM</span>
+										  <span class="offer-tag offer-super">60 days</span>
+										   <span class="deposite_time_digit">0.15 BTC</span>
+										   <div class="deposite_info">
+										      <span>60 days: 0.18 BTC + 0.15 BTC</span>
+										      <br>
+										      <span>Daily profit: 0.003 BTC</span><br>
+										      <span>
+										      Fee : 0.01 BTC
+										      </span>
+										      <br>
+										     <div class="viewer">
+										     	<a href="#">
+										     		<span class="btn-review btn-secondary">Review</span>
+										     	</a>
+										     </div>
+										   </div>
+									</div>
+								</div>
+						</div>
+					</section>	
+				    <!-- /.content -->
   		</div>
   	</div>
-  </div>
+ </div>
  <footer class="main-footer">
     <div class="pull-right hidden-xs">
      

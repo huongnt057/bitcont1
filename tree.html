@@ -24,9 +24,15 @@
 	 <link rel="stylesheet" href="assets/css/Admin.min.css">
 	  <!-- AdminLTE Skins. Choose a skin from the css/skins
 	       folder instead of downloading all of them to reduce the load. -->
-         
-</head>
-
+  <script src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+       $('.sidebar-menu li').on('click', function(){
+            console.log('vao day chua');
+           $(this).toggleClass("active");
+         });
+    });
+  </script>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
@@ -35,7 +41,7 @@
     <!-- Logo -->
     <a href="index.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><img src="../assets/images/logo_big.png" alt=""></span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg">
           <img src="../assets/images/logo_big.png" alt="">
@@ -337,7 +343,6 @@
   	<!-- Javascript -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="docs/assets/js/holder.min.js"></script>
 	<script src="assets/js/custom.js"></script>
 	<!-- AdminLTE App -->
 	<script src="assets/js/app.min.js"></script>
