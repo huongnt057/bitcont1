@@ -9490,6 +9490,20 @@ body {
   padding: 0;
   text-transform: uppercase;
 }
+.form-horizontal label {
+  display: block;
+  margin: 10px 0 5px 0;
+}
+.mainbox {
+  margin: 20px;
+}
+.panel-heading {
+  background-color: #fab915 !important;
+  border-color: #fab915 !important;
+}
+.panel-info {
+  border-color: #fab915 !important;
+}
 .inline {
   display: inline;
 }
@@ -10543,5 +10557,8 @@ body {
 }
 /* Only for Small devices and lower (<767px) */
 @media (max-width: 767px) {
+  .textadmin {
+    display: none !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
