@@ -2,7 +2,17 @@
 // MAIN STYLE
 // --------------------------------------------------
 body{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    min-height: 100%;
+}
+.main-footer{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    left: 0;
+    width: 100%;
+    margin:0 auto;
 }
 //
 .logo-lg img{
@@ -306,12 +316,15 @@ body{
 
 // Tree list
 .box-tree-view-list{
-    margin:20px 20px 20px 0;
+    margin:0px 20px 20px 0;
+}
+.tree li:first-child{
+    padding-top: 0;
 }
 .tree .myself{
     display: block !important;
     border: 1px dotted #000 !important;
-    padding:10px 15px;
+    padding:15px 10px;
 }
 .tree .fa-user{
     margin-right:10px;
@@ -322,14 +335,14 @@ body{
 .tree .fa-plus{
     font-size: 13px;
 }
-.tree .icon-plus-button{
+.tree .icon-family-tree{
     font-size: 16px;
     margin-right:10px;
 }
 .tree {
    margin-bottom:20px;
     min-height:20px;
-    padding:19px;
+    padding:0px 19px;
     li {
         list-style-type:none;
         margin:0;
@@ -394,7 +407,7 @@ body{
     padding: 10px;
 }
 .box-acount{
-    margin:50px 0 0 20px;
+    margin:0px 0 0 20px;
 }
 .addnewusser{
     background-color: @primary-color;
