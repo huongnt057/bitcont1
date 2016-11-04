@@ -9517,6 +9517,17 @@ body {
 .panel-info {
   border-color: #fab915 !important;
 }
+.addinvest {
+  width: 80%;
+  margin: 0 50px;
+}
+.title-style {
+  margin: 0 0 10px 20px;
+}
+.btn-cancel {
+  border: 1px solid #fab915;
+  color: #000;
+}
 .inline {
   display: inline;
 }
@@ -10561,6 +10572,9 @@ body {
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .content-wrapper {
+    min-height: 800px !important;
+  }
 }
 /* Only for Medium devices and lower (<1199px) */
 @media (max-width: 1199px) {
