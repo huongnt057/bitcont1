@@ -316,15 +316,25 @@ body{
 
 // Tree list
 .box-tree-view-list{
-    margin:0px 20px 20px 0;
+    margin:0px 0px 20px 0;
 }
-.tree li:first-child{
+.tree>ul>li:first-child{
     padding-top: 0;
+}
+.tree>ul{
+    padding-left: 0;
 }
 .tree .myself{
     display: block !important;
-    border: 1px dotted #000 !important;
     padding:15px 10px;
+    background-color: @primary-color;
+    .fa-user{
+        color:#000;
+    }
+    &:hover{
+        color:#000 !important;
+       
+    }
 }
 .tree .fa-user{
     margin-right:10px;
@@ -342,7 +352,7 @@ body{
 .tree {
    margin-bottom:20px;
     min-height:20px;
-    padding:0px 19px;
+    padding:0px 0px 0px 10px;
     li {
         list-style-type:none;
         margin:0;
